@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Django
+*.log
+
+# Environment secrets
+.env
+
+# IDE
+.vscode/
+.idea/
