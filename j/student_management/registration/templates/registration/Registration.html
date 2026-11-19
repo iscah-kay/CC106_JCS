@@ -9,6 +9,10 @@
     <h1>Student Registration</h1>
     <p><a href="{% url 'student_list' %}">View Student Directory</a></p>
 
+    {% if error %}
+        <p>{{ error }}</p>
+    {% endif %}
+
     <form method="POST">
         {% csrf_token %}
 
